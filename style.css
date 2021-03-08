@@ -80,27 +80,51 @@ header nav ul li a:hover::after {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 9rem;
+  flex-wrap: wrap;
 }
 
-.container div {
+.container .consola {
+  width: 60rem;
+  height: 430px;
   position: relative;
-  width: 300px;
-  height: 190px;
-  top: 15rem;
+  top: 4rem;
+  background-color: #151718;
+  border-radius: 1%;
   z-index: 1;
 }
 
-.container img {
-  width: 100%;
-  height: auto;
+.consola .nav-dots {
+  width: 50rem;
+  height: 25px;
+  border-color: 1px solid black;
+  display: flex;
+}
+
+.consola .dots {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-right: 6px;
+}
+
+#dot1 {
+  margin-left: 1rem;
+  background-color: #ff5f56;
+}
+
+#dot2 {
+  background-color: #ffbd2e;
+}
+
+#dot3 {
+  background-color: #27c93f;
 }
 
 .container h2 {
-  text-align: center;
-  border-bottom: 1px solid var(--color-hover-fuente);
+  margin-top: 2rem;
+  margin-left: 1rem;
   font-size: 1.5rem;
   color: #eee;
 }
@@ -108,29 +132,37 @@ header nav ul li a:hover::after {
 .container h2:hover {
   color: var(--color-hover-fuente);
   transition: 300ms;
+  cursor: default;
 }
 
-.container p {
+.texto p {
   margin: 15px auto;
+  margin-left: 3rem;
   font-size: 1.2rem;
   color: #eee;
 }
 
-.container a {
-  margin: 15px 0 0;
-  display: inline-block;
-  text-decoration: none;
-  color: var(--color-hover-fuente);
-  border: 1px solid white;
-  text-decoration: none;
-  font-weight: 900;
-  padding: 10px;
-  cursor: pointer;
+.texto a {
+  font-size: 0;
 }
 
-.container a:hover {
-  background: var(--color-hover-fuente);
-  color: #fff;
+.texto ul {
+  margin: 15px auto;
+  margin-left: 3rem;
+}
+
+.texto ul li {
+  color: white;
+}
+
+.fa {
+  font-size: 3rem;
+  margin-left: 3rem;
+  display: inline-block;
+}
+
+.fa:hover {
+  color: var(--color-hover-fuente);
   transition: 300ms;
 }
 
