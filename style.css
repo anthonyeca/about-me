@@ -86,7 +86,7 @@ header nav ul li a:hover::after {
 
 .container .consola {
   width: 60rem;
-  height: 430px;
+  height: 460px;
   position: relative;
   top: 4rem;
   background-color: #151718;
@@ -135,30 +135,24 @@ header nav ul li a:hover::after {
   cursor: default;
 }
 
-.texto p {
+.texto p,
+.texto ul li {
   margin: 15px auto;
   margin-left: 3rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #eee;
 }
 
-.texto a {
-  font-size: 0;
-}
-
-.texto ul {
-  margin: 15px auto;
+#icons {
+  display: flex;
+  width: 10rem;
+  justify-content: space-between;
   margin-left: 3rem;
-}
-
-.texto ul li {
-  color: white;
 }
 
 .fa {
-  font-size: 3rem;
-  margin-left: 3rem;
-  display: inline-block;
+  margin-top: 10px;
+  font-size: 2.1rem;
 }
 
 .fa:hover {
