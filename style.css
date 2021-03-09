@@ -95,7 +95,7 @@ header nav ul li a:hover::after {
 }
 
 .consola .nav-dots {
-  width: 50rem;
+  width: 5rem;
   height: 25px;
   border-color: 1px solid black;
   display: flex;
@@ -220,5 +220,19 @@ header nav ul li a:hover::after {
 
   #check:checked ~ ul {
     right: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container .consola {
+    margin: 0 3rem 0 3rem;
+    height: auto;
+    padding-bottom: 0.7rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .container .consola {
+    margin: 0 0 0 0;
+    top: 2rem;
+    width: 20rem;
   }
 }
