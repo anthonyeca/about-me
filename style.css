@@ -148,10 +148,10 @@ header nav ul li a:hover::after {
   width: 10rem;
   justify-content: space-between;
   margin-left: 3rem;
+  padding-top: 10px;
 }
 
 .fa {
-  margin-top: 10px;
   font-size: 2.1rem;
 }
 
