@@ -236,4 +236,7 @@ header nav ul li a:hover::after {
     width: 20rem;
     padding-right: 1.3rem;
   }
+  #icons {
+    margin: auto;
+  }
 }
