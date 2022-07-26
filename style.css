@@ -88,7 +88,7 @@ header nav ul li a:hover::after {
 
 .container .consola {
   width: 60rem;
-  height: 460px;
+  height: 30rem;
   position: relative;
   top: 4rem;
   background-color: #151718;
